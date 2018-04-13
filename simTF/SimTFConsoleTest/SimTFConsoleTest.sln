@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimTFConsoleTest", "SimTFConsoleTest\SimTFConsoleTest.csproj", "{1D7E5D09-A44A-4406-9C06-7E99A6AD4B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimTF", "..\SimTF\SimTF.csproj", "{09A96928-C235-4A4C-94EE-CB30F76049FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D7E5D09-A44A-4406-9C06-7E99A6AD4B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7E5D09-A44A-4406-9C06-7E99A6AD4B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7E5D09-A44A-4406-9C06-7E99A6AD4B0C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1D7E5D09-A44A-4406-9C06-7E99A6AD4B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7E5D09-A44A-4406-9C06-7E99A6AD4B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7E5D09-A44A-4406-9C06-7E99A6AD4B0C}.Release|x64.ActiveCfg = Release|Any CPU
+		{09A96928-C235-4A4C-94EE-CB30F76049FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A96928-C235-4A4C-94EE-CB30F76049FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A96928-C235-4A4C-94EE-CB30F76049FE}.Debug|x64.ActiveCfg = Debug|x64
+		{09A96928-C235-4A4C-94EE-CB30F76049FE}.Debug|x64.Build.0 = Debug|x64
+		{09A96928-C235-4A4C-94EE-CB30F76049FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A96928-C235-4A4C-94EE-CB30F76049FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A96928-C235-4A4C-94EE-CB30F76049FE}.Release|x64.ActiveCfg = Release|x64
+		{09A96928-C235-4A4C-94EE-CB30F76049FE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

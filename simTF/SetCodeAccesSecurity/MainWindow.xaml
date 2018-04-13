@@ -1,0 +1,12 @@
+﻿<Window x:Class="SetCodeAccesSecurity.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Setup Code Acces Security Policy" Height="350" Width="525">
+    <Grid Margin="-2,0,2,0">
+        <Button x:Name="SetCAS" Content="Set Code Access Security Policy" HorizontalAlignment="Left" Margin="100,0,0,50" VerticalAlignment="Bottom" Width="186" Height="20" IsDefault="True" Click="SetCAS_Click"/>
+        <Button x:Name="CnlBtn" Content="Cancel" HorizontalAlignment="Right" Margin="0,0,100,50" VerticalAlignment="Bottom" Width="75" IsCancel="True" Click="CnlBtn_Click"/>
+        <Image x:Name="HANlogo" HorizontalAlignment="Left" Height="117" Margin="10,25,0,0" VerticalAlignment="Top" Width="507" Source="pack://siteoforigin:,,,/Resources/HANlogo.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Height="48" Margin="47,173,0,0" TextWrapping="Wrap" Text="Excute A Code Acces Security Policy on the SimTF.dll Necesary for Labview ... Use at your own risk ;-)" VerticalAlignment="Top" Width="438" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
